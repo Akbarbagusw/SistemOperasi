@@ -1,7 +1,7 @@
 # **Laporan OS Pertemuan 1**
 
-**Nama** : Akbar Bagus Wicaksana
-**NIM** : 254107020067
+**Nama** : Akbar Bagus Wicaksana  
+**NIM** : 254107020067  
 **Kelas** : TI-1H
 
 ---
