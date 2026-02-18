@@ -10,3 +10,9 @@
 Jelaskan 5 fungsi utama sistem operasi dengan contoh konkret dari minimal 2 OS berbeda (Windows, macOS, atau Linux).
 
 ### Jawaban Latihan 1.1
+1. Manajemen Proses
+Mengatur aplikasi mana yang berjalan dan menggunakan CPU
+Contoh Konkret
+- Windows: Task Manager digunakan untuk mematikan paksa ("End Task") aplikasi yang macet/hang.
+- Linux: Perintah ("kill") di terminal digunakan untuk menghentikan proses spesifik yang membebani sistem.
+
