@@ -98,13 +98,13 @@
    ![Step 1](img/5.png "Step1")
 
 2. **Upgrade packages: sudo apt upgrade**
-   ![Step 2](img/6.png.png "Step2")
+   ![Step 2](img/6.png "Step2")
 
 3. **Install neofetch: sudo apt install neofetch dan Jalankan neofetch**
-   ![Step 3](img/7.png.png "Step3")
+   ![Step 3](img/7.png "Step3")
 
 4. **Check disk usage dengan df -h**
-   ![Step 4](img/8.png.png "Step4")
+   ![Step 4](img/8.png "Step4")
 
 5. **Check memory dengan free -h**
-   ![Step 5](img/9.png.png "Step5")
+   ![Step 5](img/9.png "Step5")
