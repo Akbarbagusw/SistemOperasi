@@ -74,11 +74,11 @@
    ![Step 1](img/step1.png "Step1")
 
 2. **Create VM baru di VirtualBox**
-   ![Step 2](img/step2.png "Step2)
+   ![Step 1](img/step2.png "Step2")
 
 3. **Setelah selesai install dan membuat user account, lanjut dengan memilih untuk reboot lalu login ke sistem**
    ![Step 3](img/step3.png "Step3")
 
-3. ****
+4. **Tampilan setelah berhasil login**
    ![Step 4](img/step4.png "Step4")
 
