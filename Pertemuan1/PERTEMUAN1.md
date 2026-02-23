@@ -147,3 +147,22 @@
       * **Kernel:** 6.8.0-100-generic
    3. **Konfigurasi Disk dan Partisi**
       * **Total Disk:** 25 GB
+
+---
+
+## **1.10.3. Latihan Refleksi**
+
+### **Latihan 1.6**
+**Soal:** Ceritakan pengalaman Anda dengan sistem operasi:
+1. Sistem operasi apa yang Anda gunakan sehari-hari? (Windows, macOS,
+Linux, atau lainnya)
+2. Berapa lama Anda menggunakan sistem operasi tersebut?
+3. Apa yang Anda sukai dari sistem operasi tersebut?
+4. Apa tantangan atau masalah yang pernah Anda hadapi?
+5. Apakah Anda pernah menggunakan sistem operasi lain? Bandingkan
+pengalaman Anda.
+6. Setelah mempelajari bab ini, apakah ada sistem operasi lain yang ingin
+Anda coba? Mengapa?
+Tulis reﬂeksi Anda dalam 300-500 kata disertai dengan dokumentasi.
+
+**Jawaban:**
