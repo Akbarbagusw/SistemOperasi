@@ -121,7 +121,7 @@
 **Jawaban:**
 
 1. **Tampilkan informasi OS: cat /etc/os-release**
-   ![Step 1](img/10.png.png "Step1")
+   ![Step 1](img/10.png "Step1")
 
 2. **Tampilkan versi kernel: uname -r**
    ![Step 2](img/11.png "Step2")
