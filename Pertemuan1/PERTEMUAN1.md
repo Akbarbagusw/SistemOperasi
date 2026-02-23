@@ -138,9 +138,12 @@
    ![Step 5](img/14.png "Step5")
 
 6. **Buat laporan singkat tentang konﬁgurasi sistem Anda**
-   **Informasi OS**
+   1. **Informasi OS**
       * **Name:** Ubuntu
       * **Versi:** 24.04.4 LTS
       * **Codename:** Noble Numbat
       * **Basis:** Debian
-      
+   2. **Versi Kernel**
+      * **Kernel:** 6.8.0-100-generic
+   3. **Konfigurasi Disk dan Partisi**
+      * **Total Disk:** 25 GB
