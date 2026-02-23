@@ -59,7 +59,7 @@
 
 ## **1.10.2. Latihan Praktikal**
 
-### **Latihan 1.1**
+### **Latihan 1.3**
 **Soal:** Install Ubuntu Server 22.04 LTS di VirtualBox dengan langkah berikut:
 1. Download Ubuntu Server ISO dari website resmi
 2. Create VM baru di VirtualBox (RAM: 2GB, Disk: 25GB)
@@ -82,3 +82,29 @@
 4. **Tampilan setelah berhasil login**
    ![Step 4](img/step4.png "Step4")
 
+### **Latihan 1.4**
+**Soal:** Setelah instalasi Ubuntu Server, lakukan tasks berikut:
+1. Update package list: sudo apt update
+2. Upgrade packages: sudo apt upgrade
+3. Install neofetch: sudo apt install neofetch
+4. Jalankan neofetch dan screenshot hasilnya
+5. Check disk usage dengan df -h
+6. Check memory dengan free -h
+7. Dokumentasikan output dari setiap command
+
+**Jawaban:**
+
+1. **Update package list: sudo apt update**
+   ![Step 1](img/5.png "Step1")
+
+2. **Upgrade packages: sudo apt upgrade**
+   ![Step 2](img/6.png.png "Step2")
+
+3. **Install neofetch: sudo apt install neofetch dan Jalankan neofetch**
+   ![Step 3](img/7.png.png "Step3")
+
+4. **Check disk usage dengan df -h**
+   ![Step 4](img/8.png.png "Step4")
+
+5. **Check memory dengan free -h**
+   ![Step 5](img/9.png.png "Step5")
