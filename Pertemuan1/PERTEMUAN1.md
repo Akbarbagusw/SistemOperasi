@@ -138,7 +138,7 @@
    ![Step 5](img/14.png "Step5")
 
 6. **Buat laporan singkat tentang konﬁgurasi sistem Anda**
-   1. **Informasi OS**
+   **Informasi OS**
       * **Name:** Ubuntu
       * **Versi:** 24.04.4 LTS
       * **Codename:** Noble Numbat
