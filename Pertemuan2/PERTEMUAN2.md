@@ -51,6 +51,7 @@
    ![Step 2](img/9.png "Step2")
 
 3. **Lihat mount point untuk root filesystem: findmnt /** 
+   
    ![Step 3](img/10.png "Step3")
 
 ### **Praktikum 2.4 Melihat Modul Aktif dan Informasinya**
@@ -59,9 +60,11 @@
 **Langkah-langkah:**
 
 1. **Cek versi kernel: uname -r** 
+
    ![Step 1](img/11.png "Step1")
 
 2. **Tampilkan daftar modul aktif: lsmod | head** 
+
    ![Step 2](img/12.png "Step2")
 
 3. **Pilih salah satu modul (contoh aman: loop) dan lihat detailnya: modinfo loop** 
@@ -87,9 +90,11 @@
 **Langkah-langkah:**
 
 1. **Lihat detail salah satu disk (Block Device): ls -l /dev/sda** 
+
    ![Step 1](img/18.png "Step1")
 
 2. **Lihat detail device terminal (Character Device): ls -l /dev/tty** 
+
    ![Step 2](img/19.png "Step2")
 
 3. **Lihat disk dan partisi untuk mengaitkan dengan /dev: lsblk** 
@@ -118,6 +123,7 @@
    ![Step 3](img/24.png "Step3")
 
 4. **Baca file dengan less: less data.log** 
+
    ![Step 4](img/25.png "Step4")
 
 ### **Praktikum 2.9 Pencarian Pola dengan grep**
@@ -160,6 +166,7 @@
 **Langkah-langkah:**
 
 1. **Lihat output: df -h** 
+
    ![Step 1](img/34.png "Step1")
 
 2. **Ambil kolom filesystem dan persentase pemakaian: df -h | awk 'NR==1 {print $1, $5, $6} NR>1 {print $1, $5, $6}'** 
@@ -210,15 +217,18 @@
 **Langkah-langkah:**
 
 1. **Cek penggunaan disk: df -h** 
+
    ![Step 1](img/44.png "Step1")
 
 2. **Cari direktori yang besar: sudo du -sh /var/* 2>/dev/null | sort -h | tail -n 10** 
    ![Step 2](img/45.png "Step2")
 
 3. **Cek load dan uptime: uptime** 
+
    ![Step 3](img/46.png "Step3")
 
 4. **Cek service yang gagal: systemctl --failed** 
+
    ![Step 4](img/47.png "Step4")
 
 5. **Ambil log error terbaru: journalctl -xe | tail -n 50** 
@@ -233,6 +243,7 @@
    ![Step 1](img/49.png "Step1")
 
 2. **Lihat routing table: ip r** 
+
    ![Step 2](img/50.png "Step2")
 
 3. **Lihat port yang sedang listening: sudo ss -tulpn** 
@@ -261,6 +272,7 @@
 **Jawaban:**
 
 1. **Tentukan device root: findmnt /**
+
    ![Step 1](img/53.png "Step1")
 
 2. **Cocokkan dengan partisi: lsblk -f**
@@ -288,6 +300,7 @@
 **Jawaban:**
 
 1. **Tampilkan teks SEBELUM diubah: cat server.log**
+
    ![Step 1](img/57.png "Step1")
 
 2. **Gunakan perintah sed -i 's/server/node/g' server.log lalu tampilkan hasilnya SESUDAH diubah:**
@@ -310,6 +323,7 @@
    ![Step 1](img/60.png "Step1")
 
 2. **Hentikan dengan perintah kill <PID>:**
+
    ![Step 2](img/61.png "Step2")
 
 3. **Perbedaan SIGTERM vs SIGKILL:**
@@ -322,6 +336,7 @@
 **Jawaban:**
 
 1. **Gunakan perintah: systemctl --failed**
+
    ![Step 1](img/62.png "Step1")
 
 2. **Tampilkan status service aktif (contoh: ssh): systemctl status ssh**
