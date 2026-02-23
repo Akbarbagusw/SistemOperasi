@@ -108,3 +108,32 @@
 
 5. **Check memory dengan free -h**
    ![Step 5](img/9.png "Step5")
+
+### **Latihan 1.5**
+**Soal:** Eksplorasi sistem yang baru diinstall:
+1. Tampilkan informasi OS: cat /etc/os-release
+2. Tampilkan versi kernel: uname -r
+3. List partisi: lsblk
+4. Check network connectivity: ping -c 4 google.com
+5. Install dan jalankan htop untuk melihat resource usage
+6. Buat laporan singkat tentang konﬁgurasi sistem Anda
+
+**Jawaban:**
+
+1. **Tampilkan informasi OS: cat /etc/os-release**
+   ![Step 1](img/10.png.png "Step1")
+
+2. **Tampilkan versi kernel: uname -r**
+   ![Step 2](img/11.png "Step2")
+
+3. **List partisi: lsblk**
+   ![Step 3](img/12.png "Step3")
+
+4. **Check network connectivity: ping -c 4 google.com**
+   ![Step 4](img/13.png "Step4")
+
+5. **Install dan jalankan htop untuk melihat resource usage**
+   ![Step 5](img/14.png "Step5")
+
+6. **Buat laporan singkat tentang konﬁgurasi sistem Anda**
+   
