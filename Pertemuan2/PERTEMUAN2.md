@@ -34,6 +34,7 @@
    ![Step 3](img/5.png "Step3")
 
 4. **Lihat perangkat USB: lsusb** 
+
    ![Step 4](img/6.png "Step4")
 
 5. **Lihat topologi USB (tree): lsusb -t** 
