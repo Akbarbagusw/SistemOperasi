@@ -124,9 +124,11 @@
    ![Step 1](img/10.png "Step1")
 
 2. **Tampilkan versi kernel: uname -r**
+
    ![Step 2](img/11.png "Step2")
 
 3. **List partisi: lsblk**
+
    ![Step 3](img/12.png "Step3")
 
 4. **Check network connectivity: ping -c 4 google.com**
