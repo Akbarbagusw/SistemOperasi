@@ -7,10 +7,10 @@
 ---
 
 ### **Latihan 3.1 Identifikasi CPU dan Memori**
-**Buatlah Script yang:** 
+**Buatlah Script yang:**  
 1.Menampilkan daftar 10 file terbesar di direktori /var/log/
-2.Menyimpan hasilnya ke file large-logs.txt
-3.Menampilkan output juga di terminal menggunakan tee
+2.Menyimpan hasilnya ke file large-logs.txt  
+3.Menampilkan output juga di terminal menggunakan tee  
 4.Menangani error dengan redirect ke error.logMemahami spesifikasi CPU dan kondisi memori pada server/VM.
 
 **Hasil:**
