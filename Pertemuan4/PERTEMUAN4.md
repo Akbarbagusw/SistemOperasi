@@ -66,32 +66,32 @@ melihat mengapa directory /proc disebut pseudo -filesystem  yang memungkinkan ak
 5. **Ubahlah direktory home ke user lain secara langsung menggunakan cd ~username.** 
    ![Step 5](img/19.png "Step5")
 
-6. **Ubah kembali ke direktory home Anda.** 
+6. **Ubah kembali ke direktory home Anda.**  
    ![Step 6](img/20.png "Step6")  
 
-7. **Buat subdirektory work and play.** 
+7. **Buat subdirektory work and play.**  
    ![Step 7](img/21.png "Step7")  
 
-8. *Hapus subdirektory work.** 
+8. *Hapus subdirektory work.**  
    ![Step 8](img/22.png "Step8")  
 
-9. **Copy file /etc/passwd ke direktory home Anda.** 
+9. **Copy file /etc/passwd ke direktory home Anda.**  
    ![Step 9](img/23.png "Step9")  
 
-10. **Pindahkan ke subdirektory play.** 
+10. **Pindahkan ke subdirektory play.**  
    ![Step 10](img/24.png "Step10")  
 
-11. **Ubahlah ke subdirektory play dan buat symbolic link dengan nama terminal yang menunjuk ke perangkat tty.  Apa yang terjadi jika melakukan hard link ke perangkat tty ?** 
+11. **Ubahlah ke subdirektory play dan buat symbolic link dengan nama terminal yang menunjuk ke perangkat tty.  Apa yang terjadi jika melakukan hard link ke perangkat tty ?**  
    ![Step 11](img/25.png "Step11")  
 
-12. **Buatlah file bernama hello.txt yang berisi kata ”hello word”.  Dapatkah Anda gunakan ”cp” menggunakan ”terminal” sebagai file asal untuk menghasilkan efek yang sama ?** 
+12. **Buatlah file bernama hello.txt yang berisi kata ”hello word”.  Dapatkah Anda gunakan ”cp” menggunakan ”terminal” sebagai file asal untuk menghasilkan efek yang sama ?**  
    ![Step 12](img/26.png "Step12")  
 
-13. **Copy hello.txt ke terminal.  Apa yang terjadi ?** 
+13. **Copy hello.txt ke terminal.  Apa yang terjadi ?**  
    ![Step 13](img/27.png "Step13")  
 
-14. **Masih direktory home, copy keseluruhan direktory play ke direktory bernama work menggunakan symbolic link.** 
+14. **Masih direktory home, copy keseluruhan direktory play ke direktory bernama work menggunakan symbolic link.**  
    ![Step 14](img/28.png "Step14")  
 
-15. **Hapus direktory work dan isinya dengan satu perintah** 
+15. **Hapus direktory work dan isinya dengan satu perintah**  
    ![Step 15](img/29.png "Step15")  
