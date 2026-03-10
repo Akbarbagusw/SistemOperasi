@@ -10,7 +10,7 @@
 **Hasil:**  
 1.Melihat direktori HOME  
 ![Step 1](img/1.png "Step1")
-2.Menyimpan hasilnya ke file large-logs.txt
+2.Menyimpan hasilnya ke file large-logs.txt  
 ![Step 2](img/2.png "Step2")  
 3.Menampilkan output juga di terminal menggunakan tee  
 ![Step 3](img/3.png "Step3")
@@ -38,7 +38,7 @@
 ### **Percobaan 5: Mencari file**
 **Hasil:**  
 1.Perintah find  
-![Step 1](img/11.png "Step1")
+![Step 1](img/11.png "Step1")  
 2.Perintah which  
 ![Step 2](img/12.png "Step2")  
 3.Perintah locate  
