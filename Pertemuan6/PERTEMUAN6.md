@@ -83,7 +83,7 @@ SIGTERM digunakan sebagai default untuk menghentikan proses secara normal sehing
 ![Step 1](img/17.png "Step1")  
 2.Bawa job pertama ke foreground, jeda, lalu kembalikan ke background  
 ![Step 2](img/18.png "Step2")  
-3.Hentikan semua job: kill %1 %2 %3, jobs
+3.Hentikan semua job: kill %1 %2 %3, jobs  
 ![Step 3](img/19.png "Step3")
 
 ### **Latihan 6.5**
