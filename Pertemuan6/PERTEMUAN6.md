@@ -20,7 +20,7 @@ Process ID): ps aux -L
 
 ### **Latihan 6.1**
 1.Berapa total proses yang berjalan? Proses apa yang memiliki PID terkecil?  
-![Step 1](img/36.png "Step1")
+![Step 1](img/36.png "Step1")  
 2.Jalankan pstree -p dan temukan proses bash Anda. Proses apa yang menjadi induk (PPID) dari bash tersebut?  
 ![Step 2](img/37.png "Step2")  
 Pada struktur pohon (tree) yang muncul, Anda akan melihat garis cabang sebelum proses bash Anda. Induk (PPID) dari bash tersebut biasanya adalah program terminal emulator yang Anda gunakan (contoh: gnome-terminal-server) atau layanan sshd jika Anda sedang remote menggunakan SSH.  
@@ -30,7 +30,7 @@ Perbedaan utamanya ada pada kolom informasi yang ditampilkan. Perintah ps aux ha
 ## **Percobaan 6.2: Mengamati Siklus Hidup Proses**
 **Langkah-langkah:**  
 1.Buat proses di background dan amati kondisinya: sleep 60 &, ps aux | grep sleep  
-![Step 1](img/6.png "Step1")
+![Step 1](img/6.png "Step1")  
 2.mati perubahan exit code dari perintah yang berhasil dan gagal:  
 ![Step 2](img/7.png "Step2")  
 
@@ -45,7 +45,7 @@ Perintah yang berhasil akan memberikan nilai exit code 0, sedangkan perintah yan
 1.Jalankan proses dengan prioritas rendah: nice -n 10 sleep 300 &  
 ![Step 1](img/10.png "Step1")  
 2.Verifikasi nilai nice pada kolom NI: ps aux | grep sleep  
-![Step 2](img/11.png "Step2")
+![Step 2](img/11.png "Step2")  
 3.Ubah nilai nice proses yang sudah berjalan:  
 ![Step 3](img/12.png "Step3")  
 4.Bersihkan proses percobaan: kill %1  
@@ -61,11 +61,11 @@ Akses akan ditolak (Permission denied). Linux membatasi nilai nice negatif (prio
 ## **Praktikum 6.4: Mengirim Sinyal ke Proses**
 **Langkah-langkah:**  
 1.Buat proses percobaan:  
-![Step 1](img/13.png "Step1")
+![Step 1](img/13.png "Step1")  
 2.Hentikan satu proses dengan SIGTERM dan verifikasi:  
 ![Step 2](img/14.png "Step2")  
 3.Jeda dan lanjutkan proses dengan SIGSTOP/SIGCONT:  
-![Step 3](img/15.png "Step3")
+![Step 3](img/15.png "Step3")  
 4.Hentikan semua proses sleep sekaligus: pkill sleep  
 ![Step 4](img/16.png "Step4")
 
