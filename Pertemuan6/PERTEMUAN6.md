@@ -46,8 +46,7 @@ Process ID): ps aux -L
 ![Step 2](img/11.png "Step2")
 3.Ubah nilai nice proses yang sudah berjalan:  
 ![Step 3](img/12.png "Step3")
-4.Bersihkan proses percobaan:  
-![Step 4](img/13.png "Step4")
+4.Bersihkan proses percobaan: kill %1  
 
 ### **Latihan 6.3**
 1.Jalankan nice -n 5 sleep 200 & dan verifikasi nilai NI-nya dengan ps.  
@@ -60,13 +59,13 @@ Process ID): ps aux -L
 ## **Praktikum 6.4: Mengirim Sinyal ke Proses**
 **Langkah-langkah:**  
 1.Buat proses percobaan:  
-![Step 1](img/.png "Step1")
+![Step 1](img/13.png "Step1")
 2.Hentikan satu proses dengan SIGTERM dan verifikasi:  
-![Step 2](img/.png "Step2")
+![Step 2](img/14.png "Step2")
 3.Jeda dan lanjutkan proses dengan SIGSTOP/SIGCONT:  
-![Step 3](img/.png "Step3")
+![Step 3](img/15.png "Step3")
 4.Hentikan semua proses sleep sekaligus: pkill sleep  
-![Step 4](img/.png "Step4")
+![Step 4](img/16.png "Step4")
 
 ### **Latihan 6.4**
 1.Jalankan sleep 400 &, kirim SIGSTOP, dan amati perubahan kolom STAT. Kondisi apa yang muncul?  
@@ -79,11 +78,11 @@ Process ID): ps aux -L
 ## **Praktikum 6.5: Manajemen Job Foreground dan Background**
 **Langkah-langkah:**  
 1.Jalankan tiga job di background  
-![Step 1](img/.png "Step1")
+![Step 1](img/17.png "Step1")
 2.Bawa job pertama ke foreground, jeda, lalu kembalikan ke background  
-![Step 2](img/.png "Step2")
+![Step 2](img/18.png "Step2")
 3.Hentikan semua job: kill %1 %2 %3, jobs
-![Step 3](img/.png "Step3")
+![Step 3](img/19.png "Step3")
 
 ### **Latihan 6.5**
 1.Jalankan top di foreground. Apa yang terjadi di terminal?  
@@ -98,11 +97,11 @@ Process ID): ps aux -L
 ## **Praktikum 6.6: Pemantauan Proses**
 **Langkah-langkah:**  
 1.Temukan proses dengan penggunaan CPU dan memori tertinggi:  
-![Step 1](img/.png "Step1")
+![Step 1](img/20.png "Step1")
 2.Jalankan top dan eksplorasi shortcut-nya:  
-![Step 2](img/.png "Step2")
+![Step 2](img/21.png "Step2")
 3.Instal dan jalankan htop  
-![Step 3](img/.png "Step3")
+![Step 3](img/22.png "Step3")
 
 ### **Latihan 6.6**
 1.Gunakan ps aux –sort=%mem untuk menemukan proses yang menggunakan memori paling banyak di VM Anda. Proses apa itu?  
@@ -115,26 +114,28 @@ Process ID): ps aux -L
 ## **Latihan 6.A**
 **Eksplorasi Proses Sistem**
  1. Jalankan ps aux –forest dan temukan proses dengan PID 1. Apa nama dan fungsi proses tersebut dalam sistem Linux modern?  
-![Step 1](img/.png "Step1")
+![Step 1](img/23.png "Step1")  
+ Bernama systemd (atau init), berfungsi menginisialisasi sistem saat boot dan menjadi induk bagi proses lainnya.  
  2. Hitung berapa proses yang dimiliki oleh user root dan berapa yang dimiliki oleh user Anda. Mengapa root memiliki lebih banyak proses?  
-![Step 2](img/.png "Step2")
+ User root memiliki proses lebih banyak karena bertugas menjalankan layanan inti sistem di background.  
  3. Temukan semua proses yang berada dalam kondisi S. Mengapa sebagian besar proses di sistem berada dalam kondisi ini?  
-![Step 3](img/.png "Step3")
+ Mayoritas proses berstatus ini karena sedang "sleep" menunggu event atau input/output agar tidak memboroskan CPU.  
 
 ## **Latihan 6.B**
 **Simulasi Manajemen Job**
  1. Jalankan tiga perintah sleep dengan durasi 100, 200, dan 300 detik di background. Verifikasi ketiganya dengan jobs.  
-![Step 1](img/.png "Step1")
+![Step 1](img/24.png "Step1")
  2. Bawa job kedua ke foreground, jeda dengan Ctrl+Z , lalu kembalikan ke background dengan bg.  
-![Step 2](img/.png "Step2")
+![Step 2](img/25.png "Step2")
  3. Hentikan job pertama dengan kill %1. Tampilkan kembali daftar job. Berapa job yang tersisa?  
-![Step 3](img/.png "Step3")
+![Step 3](img/26.png "Step3")
 
 ## **Latihan 6.C**
 **Prioritas dan Sinyal**
  1. Jalankan dua proses sleep: satu dengan nice +5 dan satu dengan nice +15. Verifikasi nilai NI keduanya dengan ps.  
-![Step 1](img/.png "Step1")
+![Step 1](img/27.png "Step1")
  2. Gunakan renice untuk mengubah nice proses pertama menjadi +10. Proses mana yang kini lebih diprioritaskan scheduler?  
-![Step 2](img/.png "Step2")
+![Step 2](img/28.png "Step2")  
+ Proses pertama (nice +10) kini lebih diprioritaskan oleh scheduler karena nilainya lebih kecil (prioritas lebih tinggi) dibanding proses kedua (+15).  
  3. Kirim SIGSTOP ke salah satu proses, verifikasi kondisi T-nya, lalu kirim SIGCONT. Akhiri semua proses percobaan dengan pkill sleep.  
-![Step 3](img/.png "Step3")
+![Step 3](img/29.png "Step3")
