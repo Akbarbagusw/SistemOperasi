@@ -14,15 +14,15 @@
 Process ID): ps aux -L  
 ![Step 2](img/2.png "Step2")  
 3.Lihat PID shell aktif dan detail prosesnya: echo $$, ps -p $$ -f  
-![Step 3](img/3.png "Step3")
+![Step 3](img/3.png "Step3")  
 4.Lihat hierarki proses secara visual: pstree -p
 ![Step 4](img/4.png "Step4")
 
 ### **Latihan 6.1**
-1.Berapa total proses yang berjalan? Proses apa yang memiliki PID terkecil?
+1.Berapa total proses yang berjalan? Proses apa yang memiliki PID terkecil?  
 ![Step 1](img/36.png "Step1")
 2.Jalankan pstree -p dan temukan proses bash Anda. Proses apa yang menjadi induk (PPID) dari bash tersebut?  
-![Step 2](img/37.png "Step2")
+![Step 2](img/37.png "Step2")  
 Pada struktur pohon (tree) yang muncul, Anda akan melihat garis cabang sebelum proses bash Anda. Induk (PPID) dari bash tersebut biasanya adalah program terminal emulator yang Anda gunakan (contoh: gnome-terminal-server) atau layanan sshd jika Anda sedang remote menggunakan SSH.  
 3.Bandingkan output ps aux dan ps aux -L. Apa perbedaan yang Anda lihat?  
 Perbedaan utamanya ada pada kolom informasi yang ditampilkan. Perintah ps aux hanya menampilkan informasi ringkas dari proses utama. Sedangkan perintah ps aux -L akan memunculkan kolom tambahan bernama LWP (Light-Weight Process ID), yang fungsinya untuk menampilkan rincian setiap thread tunggal yang ada di dalam sebuah proses secara mendetail.  
