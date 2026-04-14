@@ -1,4 +1,4 @@
-# **Laporan OS Pertemuan 4**
+# **Laporan OS Pertemuan 6**
 
 **Nama** : Akbar Bagus Wicaksana  
 **NIM** : 254107020067  
