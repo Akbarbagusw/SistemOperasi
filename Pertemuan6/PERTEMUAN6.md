@@ -10,8 +10,7 @@
 **Langkah-langkah:**  
 1.Tampilkan semua proses yang berjalan: ps aux  
 ![Step 1](img/1.png "Step1")  
-2.Tampilkan proses beserta thread-nya, dapat dilihat pada kolom LWP (LightWeight
-Process ID): ps aux -L  
+2.Tampilkan proses beserta thread-nya, dapat dilihat pada kolom LWP (LightWeight Process ID): ps aux -L  
 ![Step 2](img/2.png "Step2")  
 3.Lihat PID shell aktif dan detail prosesnya: echo $$, ps -p $$ -f  
 ![Step 3](img/3.png "Step3")  
