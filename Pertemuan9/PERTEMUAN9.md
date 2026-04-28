@@ -25,7 +25,7 @@ yang menampilkan: jumlah mahasiswa per grade (A, B, C, D, E) menggunakan perulan
 ![Step 1](img/3.png "Step1")  
 
 ## **Latihan 9.4**
-Tambahkan fungsi konfirmasi() ke lib-validasi.sh. Fungsi ini menampilkan pertanyaan, membaca input Y/N dari user, mengembalikan 0 jika Y dan 1 jika N. Buat script demo yang memanggil fungsi ini sebelum menghapus sebuah file.
+Tambahkan fungsi konfirmasi() ke lib-validasi.sh. Fungsi ini menampilkan pertanyaan, membaca input Y/N dari user, mengembalikan 0 jika Y dan 1 jika N. Buat script demo yang memanggil fungsi ini sebelum menghapus sebuah file.  
 **lib-validasi.sh**  
 ![Step 1](img/4.png "Step1")  
 **demo-hapus.sh**  
